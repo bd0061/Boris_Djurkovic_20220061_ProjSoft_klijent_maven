@@ -187,7 +187,6 @@ public class IznajmljivanjeKontroler {
         });
 
         view.addDatumSklapanjaListener(() -> {
-            System.out.println("pusi kurac");
             proveri();
         }
         );

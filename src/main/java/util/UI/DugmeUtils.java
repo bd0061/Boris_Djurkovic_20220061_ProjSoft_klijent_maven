@@ -117,7 +117,6 @@ public class DugmeUtils {
     ) {
         btn.addActionListener((e) -> {
             List<KriterijumDescriptor> kds;
-            System.out.println("sisaj kurac: " + w.depthLevel);
             try {
                 w.kds = KriterijumGUI.processKriterijums(krits);
             } catch (Exception ex) {
